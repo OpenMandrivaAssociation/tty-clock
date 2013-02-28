@@ -3,6 +3,7 @@
 # Generato: http://www.mandrivausers.ro/
 # MRB-Falticska Florin
 ######################################################
+#empty debug 
 %define debug_package	%{nil}
 %define oname xorg62-tty-clock-a82fd71
 Summary:	Simple console clock
