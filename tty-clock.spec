@@ -11,7 +11,7 @@ Name:		tty-clock
 Version:	0.1
 Release:	1
 License:	GPLv2+
-Group:		System Environment/Shells
+Group:		Shells
 URL:		http://github.com/xorg62/tty-clock
 Source0:	https://github.com/xorg62/tty-clock/%{oname}.tar.gz
 BuildRequires:	ncurses-devel
@@ -32,7 +32,6 @@ install -d -m 755 %{buildroot}%{_bindir}
 install -m 755 %{name} %{buildroot}%{_bindir}/
 
 %files
-%defattr(-,root,root)
 %doc README
 %{_bindir}/*
 
