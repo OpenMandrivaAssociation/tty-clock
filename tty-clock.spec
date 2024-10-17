@@ -11,7 +11,7 @@ Version:	0.1
 Release:	1
 License:	GPLv2+
 Group:		System Environment/Shells
-URL:		http://github.com/xorg62/tty-clock
+URL:		https://github.com/xorg62/tty-clock
 Source0:	https://github.com/xorg62/tty-clock/%{oname}.tar.gz
 BuildRequires:	ncurses-devel
 Requires:	ncurses
